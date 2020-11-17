@@ -1,4 +1,4 @@
-# -用sklearn生成决策树-
+# -用sklearn生成决策树-SUES人工智能仿真-
 
 环境：Ubuntu 18.04.4 LTS
 Python版本:3.6
