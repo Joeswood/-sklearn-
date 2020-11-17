@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('TkAgg')
 from pydotplus import graph_from_dot_data
+from sklearn.metrics import classification_report
 
 
 #数据预处理 将密度和含糖率成为离散的属性
