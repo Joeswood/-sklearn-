@@ -6,6 +6,7 @@ Python版本:3.6
 *注意问题：matplotlab默认使用'Agg'可能导致plt.show()无法显示，可以使用'TkAgg'
 
 运行结果：
+
 right_rate:0.8
 
  \  | precision  | recall  |  f1-score  | support
