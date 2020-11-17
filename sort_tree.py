@@ -96,3 +96,7 @@ data=tree.export_graphviz(clf
                     )
 graph = graph_from_dot_data(data)
 graph.write_pdf('tree.pdf')
+
+#获取每个特征的重要性
+print("每个属性的重要性指标")
+print([*zip(feature_name,clf.feature_importances_)])
